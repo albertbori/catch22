@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		16B2A930F09D262650FD8807 /* libPods-catch22Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EEAE211D1F1A09697D8F427 /* libPods-catch22Tests.a */; };
-		1F6E080EB93D7151D6B05A0A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E6AB4B16180C0F2A60ACBD3 /* libPods.a */; };
-		40D69396B3B6F7275ADBBA5C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E6AB4B16180C0F2A60ACBD3 /* libPods.a */; };
+		49121DA59842893A71A83263 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0A1578AAA2FA7D5138C8353 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		701C79EE1A7B6034006A44DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701C79ED1A7B6034006A44DD /* AppDelegate.swift */; };
 		701C79F01A7B6034006A44DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701C79EF1A7B6034006A44DD /* ViewController.swift */; };
 		701C79F31A7B6034006A44DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 701C79F11A7B6034006A44DD /* Main.storyboard */; };
@@ -18,6 +17,7 @@
 		701C7A041A7B6034006A44DD /* catch22Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701C7A031A7B6034006A44DD /* catch22Tests.swift */; };
 		70328A591A7B661500FF5F28 /* KIFTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70328A581A7B661500FF5F28 /* KIFTest.swift */; };
 		70C9D9511A7B6CD100EDB2F7 /* libPods-catch22Tests-KIF.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70C9D9501A7B6CD100EDB2F7 /* libPods-catch22Tests-KIF.a */; };
+		95324E60E5A2C4F9D0D7AADC /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0A1578AAA2FA7D5138C8353 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +32,6 @@
 
 /* Begin PBXFileReference section */
 		1477D3152836BB54ED950BF6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		4E6AB4B16180C0F2A60ACBD3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EEAE211D1F1A09697D8F427 /* libPods-catch22Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-catch22Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		701C79E81A7B6034006A44DD /* catch22.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = catch22.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		701C79EC1A7B6034006A44DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		7090FFC51A7B612B00B35F4E /* catch22-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "catch22-Bridging-Header.h"; sourceTree = "<group>"; };
 		70C9D9501A7B6CD100EDB2F7 /* libPods-catch22Tests-KIF.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-catch22Tests-KIF.a"; path = "Pods/build/Debug-iphoneos/libPods-catch22Tests-KIF.a"; sourceTree = "<group>"; };
 		B2AB3E4BE1382F8F9DFD0D49 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E0A1578AAA2FA7D5138C8353 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F6E080EB93D7151D6B05A0A /* libPods.a in Frameworks */,
+				95324E60E5A2C4F9D0D7AADC /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,8 +65,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				70C9D9511A7B6CD100EDB2F7 /* libPods-catch22Tests-KIF.a in Frameworks */,
-				40D69396B3B6F7275ADBBA5C /* libPods.a in Frameworks */,
 				16B2A930F09D262650FD8807 /* libPods-catch22Tests.a in Frameworks */,
+				49121DA59842893A71A83263 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,8 +147,8 @@
 			isa = PBXGroup;
 			children = (
 				70C9D9501A7B6CD100EDB2F7 /* libPods-catch22Tests-KIF.a */,
-				4E6AB4B16180C0F2A60ACBD3 /* libPods.a */,
 				5EEAE211D1F1A09697D8F427 /* libPods-catch22Tests.a */,
+				E0A1578AAA2FA7D5138C8353 /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -165,6 +165,7 @@
 				701C79E51A7B6034006A44DD /* Frameworks */,
 				701C79E61A7B6034006A44DD /* Resources */,
 				5953F1A226E4CB8FF990C9CF /* Copy Pods Resources */,
+				C08C0C2A83514C33ADF7B6D1 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -298,6 +299,21 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		C08C0C2A83514C33ADF7B6D1 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		F8C23FD1A0D1D091A9D52CF1 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -400,7 +416,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};

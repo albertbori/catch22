@@ -2,14 +2,17 @@ PODS:
   - KIF (3.1.2):
     - KIF/XCTest (= 3.1.2)
   - KIF/XCTest (3.1.2)
+  - Locksmith (1.2.0)
   - MBProgressHUD (0.9)
 
 DEPENDENCIES:
   - KIF (~> 3.0)
+  - Locksmith
   - MBProgressHUD (~> 0.8)
 
 SPEC CHECKSUMS:
   KIF: 068074b24dd455025e7f2a488ba4fb07b9ce047b
+  Locksmith: 15a873e266beceb1b81476e0f50a1e1cba103a6f
   MBProgressHUD: 2038dbcf3dce73215abed6001657043d53aa79a8
 
-COCOAPODS: 0.36.0.beta.1
+COCOAPODS: 0.36.0.beta.2

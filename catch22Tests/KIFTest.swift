@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import KIF
 
 class KIFTest: KIFTestCase {
     func testCase() {
