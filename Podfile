@@ -1,11 +1,14 @@
 source 'https://github.com/CocoaPods/Specs.git'
-xcodeproj 'catch22.xcodeproj'
-link_with 'catch22', 'catch22Tests'
-
 platform :ios, '8.0'
 
-pod 'MBProgressHUD', '~> 0.8'
-pod 'Locksmith'
-target 'catch22Tests', :exclusive => true do
-    pod 'KIF', '~> 3.0'
+use_frameworks!
+
+target 'catch22' do
+  pod 'MBProgressHUD', '~> 0.8'
+  pod 'Locksmith'
 end
+
+target 'catch22Tests' do
+  pod 'KIF', '~> 3.0'
+end
+
