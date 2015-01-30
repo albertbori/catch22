@@ -8,7 +8,6 @@
 
 import UIKit
 import XCTest
-//import KIF
 
 class catch22Tests: XCTestCase {
     

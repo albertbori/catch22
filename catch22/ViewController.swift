@@ -7,16 +7,13 @@
 //
 
 import UIKit
-import MBProgressHUD
-//import ActionSheetPicker_3_0
-//import SDWebImage
-//import Reachability
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        MBProgressHUD.allHUDsForView(self.view)
     }
 
     override func didReceiveMemoryWarning() {
